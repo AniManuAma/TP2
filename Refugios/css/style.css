@@ -248,9 +248,31 @@ button {
 	flex-direction: row;
 }
 
-/*--------------------------------------------------------------------------------------------------- JUANCHO A PARTIR DE ACÁ---------------------------------------------------------------------------------------------*/
 
-/*---------------------------------------------------------------------------------------------------- HASTA ACÁ ---------------------------------------------------------------------------------------------------------*/
+/*Subsecciones imagenes de animalitos*/
+.orden{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.infoanimales {
+    text-align: left;
+    background-color: #d5d5d8;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+}
+.infoanimales:hover{
+    background-color: #da99da;
+}
+.infoanimales .descripcion {
+    color: #5b179b;
+}
+.infoanimales .refugio {
+    color: #5b179b;
+}
 
 /*Sección desarrolladores*/
 .developer-info {
