@@ -157,7 +157,6 @@ main {
     border-radius: 4px;
     transition: background-color 0.3s;
 }
-
 .resto p {
     font-size: 18px;
     line-height: 1.6;
@@ -176,11 +175,40 @@ main {
 
 
 /*Subsecciones Veterinario y Refugio*/
-.orden{
-    justify-content: center;
-	display: flex;
-	flex-direction: row;
+#Adopta {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
 }
+
+.orden {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+.resto {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+}
+
+label {
+    width: 100%; 
+    padding-right: 10px;
+    display: block; 
+}
+
+input {
+    padding: 3px 10px;
+}
+
+button {
+    margin-top: 10px;
+    max-width: 80px;
+}
+/*aaa*/
 .inforefugios {
     text-align: left;
     background-color: white;
@@ -218,9 +246,6 @@ main {
     justify-content: center;
 	display: flex;
 	flex-direction: row;
-}
-/*.facebook img{
-    width: 10%;
 }
 
 /*--------------------------------------------------------------------------------------------------- JUANCHO A PARTIR DE ACÁ---------------------------------------------------------------------------------------------*/
